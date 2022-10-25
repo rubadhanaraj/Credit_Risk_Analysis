@@ -18,48 +18,48 @@ The Lending Club dataset has been loaded into pandas dataframe and null values h
 
 ![Randam_oversampler](https://user-images.githubusercontent.com/108298416/197601059-ff92970c-00b7-4868-b81c-562a66612af4.PNG)
 
-1.The balance accuracy score for RandomOversampler model is 64%
-2.The precision and recall values for high risk applications are 1% and 60% respectively.
-3.The precision and recall values for low risk applications are 100% and 68% respectively, as the number of the low_risk applications were higher.
+* The balance accuracy score for RandomOversampler model is 64%
+* The precision and recall values for high risk applications are 1% and 60% respectively.
+* The precision and recall values for low risk applications are 100% and 68% respectively, as the number of the low_risk applications were higher.
 
 ### SMOTE 
 
 ![SMOTE](https://user-images.githubusercontent.com/108298416/197677812-5c8dfa52-6f83-4ec6-acdb-f351ddbaaf3d.PNG)
 
-1.The balance accuracy score for SMOTE  model is 64% as same as RandomOverSampler machine learning model
-2.The precision and recall values for high and low risk applications were also as same as RandomOverSampler machine leraning model
+* The balance accuracy score for SMOTE  model is 64% as same as RandomOverSampler machine learning model
+* The precision and recall values for high and low risk applications were also as same as RandomOverSampler machine leraning model
 
 ### ClusterCentroids
 
 ![ClusterCentroids ](https://user-images.githubusercontent.com/108298416/197678151-e78d5294-28f3-4bd3-90d2-ec00015f5360.PNG)
 
-1.The balance accuracy score for ClusterCentroids model is 53%
-2.The precision and recall values for high risk applications are 1% and 61% respectively
-3.The precision and recall values for low risk applications are 100% and 45% respectively
+* The balance accuracy score for ClusterCentroids model is 53%
+* The precision and recall values for high risk applications are 1% and 61% respectively
+* The precision and recall values for low risk applications are 100% and 45% respectively
 
 ### SMOTEENN
 
 ![SMOTEENN](https://user-images.githubusercontent.com/108298416/197678416-939c5ce1-be68-461d-b408-91d09bcf047c.PNG)
 
-1.The balance accuracy score for SMOTEENN model is 64%
-2.The precision and recall values for high risk applications are 1% and 70% respectively
-3.The precision and recall values for low risk applications are 100% and 57% respectively
+* The balance accuracy score for SMOTEENN model is 64%
+* The precision and recall values for high risk applications are 1% and 70% respectively
+* The precision and recall values for low risk applications are 100% and 57% respectively
 
 ### Balanced_Random_Forest_Classifier
 
 ![BalancedRandomForestClassifier](https://user-images.githubusercontent.com/108298416/197678749-b845257e-617f-4381-8168-01f7f27af133.PNG)
 
-1.The balance accuracy score for Balanced_Random_Forest_Classifier model is 79%
-2.The precision and recall values for high risk applications are 4% and 67% respectively
-3.The precision and recall values for low risk applications are 100% and 91% respectively
+* The balance accuracy score for Balanced_Random_Forest_Classifier model is 79%
+* The precision and recall values for high risk applications are 4% and 67% respectively
+* The precision and recall values for low risk applications are 100% and 91% respectively
 
 ### Easy_Ensemble_AdaBoost_Classifier
 
 ![EasyEnsembleAdaBoostClassifier](https://user-images.githubusercontent.com/108298416/197679037-3d9465d1-f655-42f2-b7e9-21eb3585b866.PNG)
 
-1.The balance accuracy score for Easy_Ensemble_AdaBoost_Classifier model is 92%
-2.The precision and recall values for high risk applications are 7% and 90% respectively
-3.The precision and recall values for low risk applications are 100% and 94% respectively
+* The balance accuracy score for Easy_Ensemble_AdaBoost_Classifier model is 92%
+* The precision and recall values for high risk applications are 7% and 90% respectively
+* The precision and recall values for low risk applications are 100% and 94% respectively
 
 ## Summary
 * All the six machine learning models used to perform credit risk analysis shows almost same precision values while determining whether the credit risk is high and the precision values were weak. 
